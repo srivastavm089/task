@@ -157,3 +157,8 @@ export const finalReset = async (req, res) => {
     });
   }
 };
+
+
+export const home = (req, res)=>{
+     res.status(200).send("hello ")
+}
